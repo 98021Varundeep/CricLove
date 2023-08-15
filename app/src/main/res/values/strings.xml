@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Cricket Applicationn</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="open">Open</string>
+    <string name="harsimranApi">1ef9ecabf0mshb13b3e44ab206cep163d72jsna0e11139f16f</string>
+    <string name="close">Close</string>
+     <string name="varun.">dd8c4ef474msh300b2ca692b2487p188fdejsn3401a0c1ad13</string>
+ <string name="kiran">eef1b18323msh0412fe5c90d8fe7p1ccc2djsn42e3c4fcd02b</string>
+    <string name="hitesh">6a7a06eeefmsh437600463cc2f4bp19effbjsn73e6bf55592b</string>
+  <string name="varun">2b78621c67msh4609060d98c95ddp130ca0jsn4f788dbce6bb</string>
+</resources>

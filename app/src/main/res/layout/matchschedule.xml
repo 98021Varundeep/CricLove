@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+ android:id="@+id/root_view"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="3dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/lightgreyy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/dateAndTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="TextView"
+
+
+
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_matchSchedule"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/matchbriefmatch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="6dp"
+                android:singleLine="true"
+                android:text="TextView"
+                app:layout_constraintHorizontal_chainStyle="packed"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imgteam1match"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="6dp"
+                app:layout_constraintStart_toStartOf="@+id/matchbriefmatch"
+                app:layout_constraintTop_toBottomOf="@+id/matchbriefmatch"
+                app:srcCompat="@drawable/ic_baseline_flag_24" />
+
+            <ImageView
+                android:id="@+id/imgteam2match"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="6dp"
+                app:layout_constraintStart_toStartOf="@+id/matchbriefmatch"
+                app:layout_constraintTop_toBottomOf="@+id/imgteam1match"
+                app:srcCompat="@drawable/ic_baseline_flag_24" />
+
+            <TextView
+                android:id="@+id/teamname1match"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imgteam1match"
+                app:layout_constraintStart_toEndOf="@+id/imgteam1match"
+                app:layout_constraintTop_toTopOf="@+id/imgteam1match" />
+
+            <TextView
+                android:id="@+id/teamname2match"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imgteam2match"
+                app:layout_constraintStart_toEndOf="@+id/imgteam2match"
+                app:layout_constraintTop_toTopOf="@+id/imgteam2match" />
+
+            <TextView
+                android:id="@+id/team1scorematch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="40dp"
+                android:text="TextView"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/teamname1match"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/teamname1match" />
+
+            <TextView
+                android:id="@+id/team2scorematch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="40dp"
+                android:text="TextView"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toBottomOf="@+id/teamname2match"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/team1scorematch"
+                app:layout_constraintTop_toTopOf="@+id/teamname2match" />
+
+            <TextView
+                android:id="@+id/matchStatusmatch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="6dp"
+                android:padding="4dp"
+                android:singleLine="true"
+                android:text="TextView"
+                android:textColor="@color/blue"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/imgteam2match"
+                app:layout_constraintTop_toBottomOf="@+id/imgteam2match" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

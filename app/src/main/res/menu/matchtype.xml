@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <group android:checkableBehavior="single">
+   <item
+      android:title="International"
+      android:id="@+id/international"/>
+  <item
+      android:title="Domestic"
+      android:id="@+id/domestic"/>
+  <item
+      android:title="League"
+      android:id="@+id/league"/>
+  <item
+      android:title="Women"
+      android:id="@+id/women"/>
+
+  </group>
+</menu>

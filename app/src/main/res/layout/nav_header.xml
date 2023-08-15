@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightgreyy"
+    android:layout_height="wrap_content">
+
+   <ImageView
+       android:layout_width="146dp"
+       android:layout_height="125dp"
+       android:src="@drawable/cricket" />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+      android:textColor="@color/black"
+      android:textSize="30dp"
+      android:text="CricLove"/>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="@color/black"
+       android:textSize="30dp"
+       android:text="By Varundeep Singh"/>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/changeKey"
+    android:title="Change Key"
+    android:icon="@drawable/ic_settings__1_"
+    app:showAsAction="always">
+
+</item>
+    <item android:id="@+id/abc"
+        android:title="Change Key"
+        android:icon="@drawable/ic_settings__1_"
+        app:showAsAction="never">
+     <menu>
+         <item android:id="@+id/key1"
+             android:title="key1" />
+
+        <item android:id="@+id/key2"
+            android:title="key2" />
+
+        <item android:id="@+id/key3"
+            android:title="key3" />
+
+         <item android:id="@+id/key4"
+             android:title="key4" />
+
+
+         <item android:id="@+id/key5"
+             android:title="key5" />
+
+
+         <item android:id="@+id/key6"
+             android:title="key6" />
+
+         <item android:id="@+id/key7"
+             android:title="key7" />
+         <item android:id="@+id/key8"
+             android:title="key8" />
+         <item android:id="@+id/key9"
+             android:title="key9" />
+         <item android:id="@+id/key10"
+             android:title="key10" />
+
+
+         <item android:id="@+id/key11"
+             android:title="key11" />
+
+
+
+     </menu>
+    </item>
+</menu>
